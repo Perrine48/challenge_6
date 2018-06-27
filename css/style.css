@@ -1,12 +1,16 @@
 header {
-    background-image: url("/home/mickael/code/challenge_6/img/header.png");
+    background-image: url("../img/header.png");
+    justify-content: center;
+    padding: 2%;
+    margin-bottom: 2%;
 }
 
 .navbar {
     background-color: #63b7f1;
+    margin: 2%;
 }
 
-.nav-link {
+.nav-item {
     color: white;
     text-align: center;
 }
@@ -17,4 +21,38 @@ h1 {
     text-align: center;
     margin-bottom: 2rem;
     font-family: 'Oswald', sans-serif;
+}
+
+header img {
+    margin: 2%;
+    width: 95%;
+    height: auto;
+}
+
+.imghead {
+    background-image: url("../img/fond.png");
+    width: 85%;
+    height: auto;
+    margin: auto;
+}
+
+.contnav {
+    justify-content: center;
+    width: 100%;
+}
+
+.contnav li a {
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Abel', sans-serif;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.btn {
+    background-color: red;
+    border-radius: 10%;
+    color: white;
 }
