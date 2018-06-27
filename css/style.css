@@ -1,11 +1,12 @@
 header {
-    background-image: url("/home/mickael/code/challenge_6/img/header.png");
+    background-image: url("img/header.png");
 }
 
 .navbar {
     background-color: #63b7f1;
 }
 
-.navbar ul li {
+/* .navbar ul li {
     color: white;
-}
+    z-index: 1;
+} */
