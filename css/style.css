@@ -3,16 +3,19 @@ header {
     justify-content: center;
     padding: 2%;
     margin-bottom: 2%;
+    padding-bottom: 7em;
 }
 
 .navbar {
     background-color: #63b7f1;
     margin: 2%;
+    padding: 2em 0;
 }
 
 .nav-item {
     color: white;
     text-align: center;
+    margin-left: 30px;
 }
 
 h1 {
@@ -31,7 +34,7 @@ header img {
 
 .imghead {
     background-image: url("../img/fond.png");
-    width: 85%;
+    width: 95%;
     height: auto;
     margin: auto;
 }
@@ -55,4 +58,28 @@ header img {
     background-color: red;
     border-radius: 10%;
     color: white;
+}
+
+h2 {
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+p {
+    font-size: 1em;
+}
+
+#grid {
+    margin: 1em;
+}
+
+.imgtt {
+    width: 100%;
+    height: auto;
+}
+
+.papaye {
+    background-image: url("../img/fond-article.png");
+    margin-left: 2em;
+    padding: 2%;
 }
