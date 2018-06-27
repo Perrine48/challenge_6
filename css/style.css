@@ -1,12 +1,20 @@
 header {
-    background-image: url("img/header.png");
+    background-image: url("/home/mickael/code/challenge_6/img/header.png");
 }
 
 .navbar {
     background-color: #63b7f1;
 }
 
-/* .navbar ul li {
+.nav-link {
     color: white;
-    z-index: 1;
-} */
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Oswald', sans-serif;
+}
